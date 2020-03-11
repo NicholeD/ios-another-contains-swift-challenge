@@ -1,18 +1,21 @@
 import Foundation
 
- var characterArray: [Character] = []
+var characterArray: [Character] = []
 var stringArray: [Character] = []
 
 extension String {
-   
+    
     func anothorContains(string: String) {
         for character in string {
             characterArray.append(character)
         }
-        for characters in String {
-            
+    }
+    func phrase(string: String) {
+        for character in string {
+            stringArray.append(character)
         }
     }
+    if stringArray
 }
 
 
